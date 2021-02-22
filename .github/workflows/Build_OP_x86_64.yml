@@ -19,11 +19,11 @@ on:
   #  - cron: 0 8 * * 5
   
   #watch:
-  #  types: [started]
+      types: [started]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
     - name: Checkout
